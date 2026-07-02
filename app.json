@@ -1,29 +1,23 @@
 {
   "expo": {
-    "name": "achatAppF",
-    "slug": "achatAppF",
+    "name": "ChatApp",
+    "slug": "chatapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "scheme": "chatapp",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.chatapp"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      "package": "com.yourcompany.chatapp"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "supabaseUrl": "https://tjqibldgtyxmikwrnegj.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRqcWlibGRndHl4bWlrd3JuZWdqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY5NTg1NDcsImV4cCI6MjA5MjUzNDU0N30.PBqNgtOfYUnNCFLDfg3zTGpJNEaLDn0p-ex-GWpWal4",
+      "apiUrl": "achatapp-production.up.railway.app"
     }
   }
 }
